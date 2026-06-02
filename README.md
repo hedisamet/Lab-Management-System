@@ -64,55 +64,6 @@ App runs at **http://localhost:4200**
 
 ---
 
-### Run the Spring Boot Microservices
-
-Make sure MySQL is running at `localhost:3306` with database `lab2024`, user `root`, password `123`.
-
-> **Always start Eureka Server first.** Microservices register with it on startup — if Eureka isn't up, they will fail to register.
-
-#### On Windows (Command Prompt / PowerShell)
-
-```cmd
-:: 1. Eureka Server — start this first
-cd backend\Eureka-Server
-mvnw.cmd spring-boot:run
-
-:: 2. Membre-Service
-cd backend\Membre-Service
-mvnw.cmd spring-boot:run
-
-:: 3. Evenement-Service
-cd backend\Evenement-Service
-mvnw.cmd spring-boot:run
-
-:: 4. Publication-Service
-cd backend\Publication-Service
-mvnw.cmd spring-boot:run
-
-:: 5. Outil-Service
-cd backend\Outil-Service
-mvnw.cmd spring-boot:run
-```
-
-#### On Linux / WSL (requires Java 21 installed)
-
-```bash
-# 1. Eureka Server
-cd backend/Eureka-Server && ./mvnw spring-boot:run
-
-# 2–5. Each microservice in a separate terminal
-cd backend/Membre-Service && ./mvnw spring-boot:run
-cd backend/Evenement-Service && ./mvnw spring-boot:run
-cd backend/Publication-Service && ./mvnw spring-boot:run
-cd backend/Outil-Service && ./mvnw spring-boot:run
-```
-
-#### Using an IDE (IntelliJ / Eclipse)
-
-Import each service as a Maven project and run the main class. Start `EurekaServerApplication` before the others.
-
----
-
 ## Eureka Service Discovery
 
 All microservices auto-register with the Eureka Server on startup.
