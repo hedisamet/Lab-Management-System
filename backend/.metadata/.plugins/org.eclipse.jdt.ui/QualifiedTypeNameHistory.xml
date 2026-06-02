@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="com.example.demo.bean.HelloBean"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="com.example.demo.bean.Ihello"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Qualifier"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Entity"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Inheritance"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.DiscriminatorColumn"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.DiscriminatorType"/>
+    <fullyQualifiedTypeName name="lombok.RequiredArgsConstructor"/>
+    <fullyQualifiedTypeName name="io.micrometer.common.lang.NonNull"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="lombok.Generated"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="org.springframework.boot.CommandLineRunner"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Etudiant"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.EnseignantChercheur"/>
+    <fullyQualifiedTypeName name="com.example.demo.service.IMemberService"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Membre"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.MembreRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.EtudiantRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.EnseignantChercheurRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.OutilRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.EvenementRepository"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="com.example.demo.repository.PublicationRepository"/>
+    <fullyQualifiedTypeName name="com.example.demo.entities.Publication"/>
+</qualifiedTypeNameHistroy>

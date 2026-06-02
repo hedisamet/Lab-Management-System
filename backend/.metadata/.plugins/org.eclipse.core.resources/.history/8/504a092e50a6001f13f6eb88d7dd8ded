@@ -1,0 +1,40 @@
+package com.example.demo;
+
+import java.util.Date;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.example.demo.entities.EnseignantChercheur;
+import com.example.demo.entities.Etudiant;
+import com.example.demo.repository.EnseignantChercheurRepository;
+import com.example.demo.repository.EtudiantRepository;
+import com.example.demo.repository.MembreRepository;
+
+import lombok.AllArgsConstructor;
+
+@SpringBootApplication
+@AllArgsConstructor
+public class MembreServiceApplication implements CommandLineRunner{
+	MembreRepository membreRepository;
+	public static void main(String[] args) {
+		SpringApplication.run(MembreServiceApplication.class, args);
+	}
+	@Override
+	public void run(String... args) throws Exception {
+		Etudiant etd1=Etudiant.builder()
+				.cin("123456")
+				.dateInscription(new Date())
+				.dateNaissance(new Date())
+				.diplome("mastère")
+				.encadrant(null)
+				.nom("abid")
+				.prenom("youssef)")
+				.sujet("blockhain")
+				.build();
+		membreRepository.save(etd1);
+		
+	}
+
+}

@@ -1,0 +1,52 @@
+{
+  "members": [
+    {
+      "id": "7bcc",
+      "cin": "afafr",
+      "nom": "gfdtg",
+      "prenom": "ezgrr",
+      "dateNaissance": "17/01/2025",
+      "cv": "lpgrze",
+      "type": "etudiant",
+      "email": "zger@example.com",
+      "createdDate": "2025-01-15T15:26:46.333Z"
+    },
+    {
+      "id": "1b0c",
+      "cin": "5724",
+      "nom": "fnjaekzl",
+      "prenom": "feajnklz",
+      "dateNaissance": "07/01/2025",
+      "cv": "fazlke",
+      "type": "etudiant",
+      "email": "hedi@example.com",
+      "createdDate": "2025-01-15T15:38:52.284Z"
+    }
+  ],
+  "Evenements": [
+    {
+      "lieu": "sfax",
+      "titre": "pyfac",
+      "dateDebut": "15/01/2025",
+      "dateFin": "17/01/2025",
+      "id": "b603"
+    }
+  ],
+  "tools": [
+    {
+      "id": "t001",
+      "source": "https://github.com/example/tool1",
+      "date": "15/01/2025"
+    }
+  ],
+  "publications": [
+    {
+      "id": "p001",
+      "titre": "Deep Learning for NLP",
+      "type": "journal",
+      "lien": "https://arxiv.org/example",
+      "date": "10/03/2025",
+      "sourcepdf": ""
+    }
+  ]
+}
